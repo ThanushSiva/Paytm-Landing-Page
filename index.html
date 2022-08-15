@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paytm</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#01BAF2",
+              primaryHover: "#00AFE3",
+              secondary: "#073270",
+              secondaryHover: "#0C3E80",
+              white: "#ffffff",
+              black: "#000000",
+            },
+            fontFamily: {
+              inter: ["Inter", "san-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .border {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body class="font-inter">
+    <div class="NAVBAR">
+      <div class="flex items-center justify-between my-5 px-5">
+        <div class="">
+          <img src="./assets/ham.png" alt="ham" />
+        </div>
+        <div class="">
+          <img class="w-44" src="./assets/paytm_logo.png" alt="paytm_logo" />
+        </div>
+        <div>
+          <ul class="hidden flex text-lg font-semibold">
+            <li class="">Paytm for Consumer</li>
+            <li class="">Paytm for Business</li>
+            <li class="">Company</li>
+            <li class="">Investor Relations</li>
+            <li class="">Career</li>
+          </ul>
+        </div>
+        <div
+          class="group relative bg-primary hover:bg-secondary rounded-full py-1 px-4 text-white hidden | sm:flex items-center"
+        >
+          <div class="pr-5 font-semibold | sm:text-lg">Sign In</div>
+          <div class="absolute right-0 h-6 px-1">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="12.1363"
+                cy="12.0001"
+                r="11.5909"
+                class="fill-secondary group-hover:fill-primary"
+              />
+              <circle cx="12.1361" cy="10.4545" r="5.40909" fill="white" />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.32666 19.5329C5.03463 16.4248 8.3395 14.3184 12.1364 14.3184C15.9332 14.3184 19.2381 16.4249 20.9461 19.5329C18.8202 22.0168 15.6621 23.591 12.1364 23.591C8.61063 23.591 5.45254 22.0168 3.32666 19.5329Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- below nav -->
+    <div class="text-center shadow-inner shadow-gray-300">
+      <p class="py-2">
+        <span class="font-semibold">Wallet KYC Required </span>😊 to pay using
+        UPI on Paytm. <a class="font-semibold" href="#">Learn more</a>
+      </p>
+    </div>
+
+    <!-- section 1 -->
+    <div class="p-4 | lg:flex lg:container mx-auto border">
+      <div
+        class="lg:w-1/2 flex flex-col space-y-9 items-center py-4 justify-around border"
+      >
+        <img class="w-20" src="/assets/paytm_upi.png" alt="paytm_upi" />
+        <h1 class="text-4xl text-center font-semibold">
+          India's Most-loved Payments App
+        </h1>
+        <p class="text-center">
+          Recharge & pay bills, book flights & movie tickets, open a savings
+          account, invest in stocks & mutual funds, and do a lot more.
+        </p>
+        <div>
+          <button
+            class="flex bg-black space-x-3 text-white items-center px-4 py-2 rounded-full justify-between"
+          >
+            <p>Download Paytm App</p>
+            <a href="#">
+              <svg
+                width="14"
+                height="16"
+                viewBox="0 0 14 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
+                  fill="#fff"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+            <a href="#">
+              <svg
+                width="14"
+                height="16"
+                viewBox="0 0 14 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
+                  fill="#fff"
+                  class=""
+                ></path>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="lg:w-1/2 py-4">
+        <img class="w-4/5" src="./assets/section1_img.png" alt="section1_img" />
+      </div>
+    </div>
+
+    <!-- section 2 -->
+    <div class="py-10 bg-primary text-white px-4">
+      <div class="mx-auto max-w-7xl">
+        <h2 class="text-2xl font-semibold">Recharge & Pay Bills on Paytm.</h2>
+        <div class="flex text-center flex-wrap lg:justify-between mt-5">
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/recharge.png"
+                alt="recharge"
+              />
+            </div>
+            <p class="text-sm pt-3">Recharge Prepaid Mobile ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/rent.png" alt="rent" />
+            </div>
+            <p class="text-sm pt-3">Pay Rent Payement ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/electric.png"
+                alt="electric"
+              />
+            </div>
+            <p class="text-sm pt-3">Pay Electric Bills ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/dth.png" alt="dth" />
+            </div>
+            <p class="text-sm pt-3">Recharge DTH Connection ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/gas.png" alt="gas" />
+            </div>
+            <p class="text-sm pt-3">Book Gas Cylinder ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/credit.png"
+                alt="credit"
+              />
+            </div>
+            <p class="text-sm pt-3">Pay Credit Card Bill ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-primaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/payment.png"
+                alt="Payement"
+              />
+            </div>
+            <p class="text-sm pt-3">All Payement Services ></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 3 -->
+    <div class="py-10 bg-secondary text-white px-4">
+      <div class="mx-auto max-w-7xl">
+        <h2 class="text-2xl font-semibold">Recharge & Pay Bills on Paytm.</h2>
+        <div class="flex text-center flex-wrap lg:justify-between mt-5">
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/movie.png"
+                alt="movie"
+              />
+            </div>
+            <p class="text-sm pt-3">Movie Tickets ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/flight.png"
+                alt="flight"
+              />
+            </div>
+            <p class="text-sm pt-3">Flight Tickets ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/bus.png" alt="bus" />
+            </div>
+            <p class="text-sm pt-3">Bus Tickets ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/train.png" alt="train" />
+            </div>
+            <p class="text-sm pt-3">Train Tickets ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img class="h-full mx-auto" src="./assets/car.png" alt="car" />
+            </div>
+            <p class="text-sm pt-3">Car & Bikes ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/international.png"
+                alt="international"
+              />
+            </div>
+            <p class="text-sm pt-3">International Flights ></p>
+          </div>
+          <div class="w-1/2 p-3 hover:bg-secondaryHover rounded-2xl | sm:w-1/4 | lg:w-auto">
+            <div class="h-20">
+              <img
+                class="h-full mx-auto"
+                src="./assets/invest.png"
+                alt="invest"
+              />
+            </div>
+            <p class="text-sm pt-3">Invest In Stocks ></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
